@@ -1,6 +1,6 @@
 # Job Listings App
 
-This project was done with SASS, ReactJS AND bootstrapped with CRA.
+This project was done with SASS, ReactJS and bootstrapped with CRA.
 
 Live version: [Job Listings App](https://listingjobs.netlify.app/)
 
