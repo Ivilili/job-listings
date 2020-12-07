@@ -1,0 +1,58 @@
+$primary-color: hsl(180, 29%, 50%);
+$neutral-background: hsl(180, 52%, 96%);
+$neutral-tags: hsl(180, 31%, 95%);
+$neutral-dark: hsl(180, 8%, 52%);
+$neutral-darker: hsl(180, 14%, 20%);
+
+$breakpoint-mobile: 375px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1440px;
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ol,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+button {
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+body {
+	line-height: 1;
+	font-family: 'Spartan', sans-serif;
+	font-size: 12px;
+	background-color: $neutral-background;
+
+	@media only screen and (min-width: $breakpoint-tablet) {
+		font-size: 14px;
+	}
+
+	@media only screen and (min-width: $breakpoint-desktop) {
+		font-size: 15px;
+		margin: 0 auto;
+	}
+}
