@@ -6,17 +6,19 @@ function Main({ filteredData, filters, handleClick, removeFilter, removeAllFilte
 		<main className="main">
 			{filters.length > 0 && (
 				<div className="filter">
-					{filters.map((tag) => (
-						<div className="filter-body">
-							<span className="filter-tag">{tag}</span>
-							<img
-								src={'../images/icon-remove.svg'}
-								alt="remove fiter tag"
-								className="remove-filter-tag"
-								onClick={() => removeFilter(tag)}
-							/>
-						</div>
-					))}
+					<div className="tag-wrapper">
+						{filters.map((tag, index) => (
+							<div className="tag" key={index}>
+								<span className="filter-tag">{tag}</span>
+								<img
+									src={'../images/icon-remove.svg'}
+									alt="remove fiter tag"
+									className="remove-filter-tag"
+									onClick={() => removeFilter(tag)}
+								/>
+							</div>
+						))}
+					</div>
 					<button className="clear-btn" onClick={removeAllFilters}>
 						Clear
 					</button>

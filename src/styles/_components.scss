@@ -161,8 +161,8 @@
 
 .filter {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 	margin: -3rem auto;
 	margin-bottom: 3.5rem;
 	padding: 1rem;
@@ -175,14 +175,17 @@
 		padding: 1rem 2rem;
 	}
 
-	.filter-body {
+	.tag-wrapper {
 		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.tag {
+		display: flex;
 	}
 
 	.filter-tag {
-		margin: 0.2rem;
+		margin: 0.5rem;
 		margin-right: 0;
 		color: $primary-color;
 		background-color: $neutral-background;
@@ -216,13 +219,9 @@
 .clear-btn {
 	font-weight: bold;
 	background: transparent;
-	margin-left: auto;
 	font-size: 15px;
 	color: $neutral-dark;
 	transition: all 0.5s ease;
-	display: inline;
-	vertical-align: center;
-
 	&:hover {
 		color: $primary-color;
 		text-decoration: underline;
