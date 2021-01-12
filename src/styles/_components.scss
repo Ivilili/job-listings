@@ -1,6 +1,6 @@
 .header {
 	background: $primary-color url('../images/bg-header-mobile.svg');
-	height: 160px;
+	height: 150px;
 
 	@media (min-width: $breakpoint-tablet) {
 		background-image: url("../images/bg-header-desktop.svg");
