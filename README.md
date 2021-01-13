@@ -1,5 +1,7 @@
 # Job Listings App
 
+[![desktop-preview.jpg](https://i.postimg.cc/7hrHG7c1/desktop-preview.jpg)](https://postimg.cc/ft5n13Mk)
+
 This project was done with SASS, ReactJS and bootstrapped with CRA.
 
 Live version: [Job Listings App](https://listingjobs.netlify.app/)
